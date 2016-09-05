@@ -63,6 +63,8 @@ contract AmIOnTheFork {
 }
 ```
 
+This contract's internal `forked` value will not change going forward and so you can rely on it *(unless someone forks to change it :p).
+
 ## Protect your contracts
 
 Technically speaking, any contracts created after the hard-fork should not be susceptible to replay attacks since they *should* be created at different addresses on both networks. However, since [the address of a contract could be calculated deterministically](http://ethereum.stackexchange.com/a/761) it's best to play it safe and include replay-protection within your contracts.
