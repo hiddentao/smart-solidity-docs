@@ -63,7 +63,7 @@ contract AmIOnTheFork {
 }
 ```
 
-This contract's internal `forked` value will not change going forward and so you can rely on it *(unless someone forks to change it :p).
+This contract's internal `forked` value will not change going forward and so you can rely on it *(unless someone forks to change it :p)*.
 
 ## Protect your contracts
 
