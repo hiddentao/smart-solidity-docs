@@ -1,6 +1,6 @@
-# smart-solidity-docs
+# Smart Soildity
 
-This is the source repository for the Smart Solidity book [viewable on gitbook](https://www.gitbook.com/book/hiddentao/smart-solidity/details).
+This is the "Smart Solidity" book [viewable on gitbook](https://www.gitbook.com/book/hiddentao/smart-solidity/details).
 
 ## License
 
